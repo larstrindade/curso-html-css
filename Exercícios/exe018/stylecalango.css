@@ -1,0 +1,100 @@
+@charset "UTF-8"; 
+@font-face {
+    font-family: 'OldNews';
+    src: url('fontes/OldNewspaperTypes.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+    @font-face {
+    font-family: 'Forester';
+    src: url('fontes/FORESTER.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+    * {
+    font-family: Georgia, Times, 'Times New Roman', serif, sans-serif;
+    /*height:100%*/
+    }
+    body {
+        background-image: linear-gradient(to right, #D9BD9C, #BABF26);
+    }
+    
+   
+    main {
+        background-color: white;
+        width: 600px;
+        margin: auto;
+        padding: 5px;
+        border-radius: 25px;
+        box-shadow: 5px 10px 15px #322303bf;
+    }
+    
+
+    img {
+            margin: auto;
+            display: block;
+            width: 500px;
+            height: 355px;
+            border: solid;
+            border-color: rgb(54, 87, 12);
+            border-radius: 10px;
+            box-shadow: 10px 7px 10px rgb(63, 63, 63);
+           
+            
+          }
+    /*img:hover {
+        width: 497px;
+        height: 351px;
+        border: solid;
+        border-color: rgb(54, 87, 12);
+        border-radius: 10px;
+        box-shadow: 10px 7px 10px rgb(63, 63, 63);
+    }
+    */
+    
+    h1 {
+        font-family: 'OldNews',  'IM Fell English SC', serif;
+        text-align: center;
+        color:#743d09 ;
+        font-size: 4em;
+        text-shadow: 2px 2px 3px rgb(42, 34, 17);
+        display: block;
+    }
+    
+    h2 {
+        font-family: 'OldNews', Arial, Helvetica, sans-serif;
+        color:#394005 ;
+        padding: 20px;
+        text-shadow: 1px 1px 2px rgba(71, 71, 94, 0.377);
+    }
+    h3 {
+        color: rgb(94, 71, 7);
+        text-align:right;
+        font-family: Arial;
+        padding-right: 50px;
+        text-shadow: 1px 1px 3px rgb(43, 64, 30);
+
+    }
+    
+    p {
+        text-align: justify;
+        padding: 20px;
+        font-family: sans-serif;
+        text-indent: 30px;
+    }
+    footer {
+        margin: auto;
+        border-radius: none;
+       
+        padding: auto;
+        color: rgb(17, 35, 15);
+        display: auto;
+    }
+    .rodape {
+        font-family: OldNews;
+        text-align: center;
+        font-size: 1.5em;
+        text-shadow: 3px 3px 3px rgb(64, 64, 64)
+    }

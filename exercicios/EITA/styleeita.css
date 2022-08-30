@@ -39,7 +39,8 @@
     hr{
         border: solid;
         color:#1d2553;
-        width: 440px;
+        min-width: 200px;
+        max-width: 440px;
         margin: auto;
         margin-bottom: 20px;
         margin-top: 20px;
